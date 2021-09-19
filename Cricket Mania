@@ -23,9 +23,6 @@ int c; // used in for loops to create a specific design;
 int choice; // used to decide whether the game needs to be ended or restarted;
 int infinity=1; // used to keep the game running until the player decides to end the game;
 
-
-
-
 while(infinity>0)
 {
 
@@ -317,9 +314,9 @@ Thread.sleep(2000);
 
 if((score1)>(score2))
 {
-System.out.println("   \\    //  = = = = =    ||        ||          ||         ||   = = = = = =  ||\\      || ");
-System.out.println("    \\  //  |         |   ||        ||          ||         ||       ||       || \\     || ");
-System.out.println("     \\//   |         |   ||        ||          ||         ||       ||       ||  \\    || ");
+System.out.println("  \\    //  = = = = =    ||        ||          ||          ||   = = = = = =  ||\\      || ");
+System.out.println("   \\  //  |         |   ||        ||          ||          ||       ||       || \\     || ");
+System.out.println("    \\//   |         |   ||        ||          ||          ||       ||       ||  \\    || ");
 System.out.println("     ||    |         |   ||        ||          ||   //\\   ||       ||       ||   \\   || ");
 System.out.println("     ||    |         |   ||        ||          ||  //  \\  ||       ||       ||    \\  || ");
 System.out.println("     ||    |         |   ||        ||          || //    \\ ||       ||       ||     \\ || ");
@@ -334,9 +331,9 @@ else if((score1)<(score2))
 System.out.println("       ||||        |||| ");
 System.out.println("       ||||        |||| ");
 System.out.println("                                          ");
-System.out.println("          |  |  |  |  |  |    ");
-System.out.println("      |                          |   ");
-System.out.println("   |                                 |   ");
+System.out.println("        |  |  |  |  |  |    ");
+System.out.println("      |                  |   ");
+System.out.println("    |                      |   ");
 System.out.println("Sorry "+name+", But The Computer Has Defeated You..!");
 }
 
@@ -347,14 +344,7 @@ System.out.println("It's a Tie..! :(");
 
 }
 
-
-
-
-
 System.out.println("\t  \t ☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻☺☻");
-
-
-
 System.out.println("");
 System.out.println("Enter 1 To Play This Game Again.");
 System.out.println("");
